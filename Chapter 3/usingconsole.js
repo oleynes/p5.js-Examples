@@ -18,7 +18,10 @@ function setup(){
 }
 
 function draw(){
-  //If mouse is pressed and debug is true, output current mouse coords
+  //If mouse is pressed AND debug is true, output current mouse coords
+  //Note that when using boolean variables you don't need the == operator because
+  //it is implied. if you wanted to check that debug was false you could do
+  //if(!DEBUG){}    This would be read as if not DEBUG... do stuff
   if(mouseIsPressed && DEBUG){
     print("X: " + mouseX + " Y: " + mouseY);
   }
