@@ -43,3 +43,14 @@ function draw(){
 
 //////////////////////////
 //Classes
+/*
+class ClassName{
+  function constructor(){
+  
+  }
+
+  function functionName(){
+
+  }
+}
+*/
