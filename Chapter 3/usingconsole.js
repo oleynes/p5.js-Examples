@@ -5,7 +5,7 @@
 *   Some examples of using the console for debugging
 */
 //Set this to false to disable console outputs
-var DEBUG = true;
+const DEBUG = true;
 
 function setup(){
   //Create Canvas
